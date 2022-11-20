@@ -17,7 +17,8 @@ let token = 0;
         token = data;
     })
     .then(()=> {
-        console.log(token);
+        console.log(`Using token ${token}`);
+        
     })
     .catch((error) => {
         console.error('Error:', error);
