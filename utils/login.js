@@ -31,10 +31,7 @@ let token = 0;
         .then((res) => res.json())
         .then((data) => {
             console.log("things happened")
-        });
-
-
-        
+        });      
     })
     .catch((error) => {
         console.error('Error:', error);
